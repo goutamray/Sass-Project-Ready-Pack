@@ -1,4 +1,3 @@
-
 /* Universal reset */
 * {
   margin: 0;
@@ -8,14 +7,13 @@
 
 /* General body styling */
 body {
-  font-family: var(--text-font, sans-serif);
+  font-family: var(--text-font, sans-serif); 
   overflow-x: hidden;
   scroll-behavior: smooth;
   line-height: 1.6;
-  color: var(--text-color);
-  background-color: var(--background-color);
+  color: var(--text-color); 
+  background-color: var(--background-color); 
 }
-
 
 /* Lists */
 ul, ol {
@@ -27,34 +25,46 @@ ul, ol {
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
   font-weight: inherit;
-  line-height: 1.2;
+  margin: 0; 
 }
 
 /* Inputs and buttons */
 input, textarea, button {
-  outline: none;
-  font-family: inherit;
-  font-size: inherit;
-  color: inherit;
-  border: none;
-  background: none;
+  outline: none; 
+  font-family: inherit; 
+  font-size: inherit; 
+  color: inherit; 
+  border: none; 
+  background: none; 
+}
+
+textarea {
+  resize: none;
 }
 
 /* Links */
 a {
-  text-decoration: none;
-  cursor: pointer;
+  text-decoration: none; 
+  cursor: pointer; 
 }
 
 /* Images */
 img {
-  max-width: 100%;
-  height: auto;
+  max-width: 100%; 
+  height: auto; 
+  display: block; 
 }
 
+/* Inline elements like spans */
 span {
-  display: inline-block;
+  display: inline-block; 
 }
 
+
+/* Optional hover effects */
+a:hover, button:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s ease-in-out;
+}
 
 
