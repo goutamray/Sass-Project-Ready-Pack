@@ -1,0 +1,60 @@
+
+/* Universal reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+  font-family: var(--text-font, sans-serif);
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  line-height: 1.6;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+
+/* Lists */
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+/* Inputs and buttons */
+input, textarea, button {
+  outline: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  border: none;
+  background: none;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+span {
+  display: inline-block;
+}
+
+
+
