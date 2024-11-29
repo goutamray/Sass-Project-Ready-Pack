@@ -1,0 +1,205 @@
+
+// Gutter Customize 
+.g-30,
+.gx-30 {
+    --bs-gutter-x: 30px;
+
+    @include large-screen {
+        --bs-gutter-x: 24px;
+    }
+}
+
+.g-30,
+.gy-30 {
+    --bs-gutter-y: 30px;
+
+    @include large-screen {
+        --bs-gutter-y: 24px;
+    }
+}
+
+
+// Padding 
+.py-115 {
+    padding-top: 115px;
+    padding-bottom: 115px;
+
+    @include screen-992 {
+        padding-bottom: 80px;
+        padding-top: 80px;
+    }
+
+    @include screen-768 {
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
+}
+
+.pt-115 {
+    padding-top: 115px;
+
+    @include screen-992 {
+        padding-top: 80px;
+    }
+
+    @include screen-768 {
+        padding-top: 65px;
+    }
+}
+
+.pb-115 {
+    padding-bottom: 115px;
+
+    @include screen-992 {
+        padding-bottom: 80px;
+    }
+
+    @include screen-768 {
+        padding-bottom: 65px;
+    }
+}
+
+.py-110 {
+    padding-top: 110px;
+    padding-bottom: 110px;
+
+    @include screen-992 {
+        padding-bottom: 80px;
+        padding-top: 80px;
+    }
+
+    @include screen-768 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+
+.pt-110 {
+    padding-top: 110px;
+
+    @include screen-992 {
+        padding-top: 80px;
+    }
+
+    @include screen-768 {
+        padding-top: 60px;
+    }
+}
+
+.pb-110 {
+    padding-bottom: 110px;
+
+    @include screen-992 {
+        padding-bottom: 80px;
+    }
+
+    @include screen-768 {
+        padding-bottom: 60px;
+    }
+}
+
+.pt-120 {
+    padding-top: 120px;
+
+    @include screen-992 {
+        padding-top: 80px;
+    }
+
+    @include screen-768 {
+        padding-top: 70px;
+    }
+}
+
+.pb-70 {
+    padding-bottom: 70px;
+}
+.py-70 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.py-60 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.pt-60 {
+    padding-top: 60px;
+}
+
+.bp-60 {
+    padding-bottom: 60px;
+}
+
+
+
+
+
+// Margin 
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.my-115 {
+    margin-top: 115px;
+    margin-bottom: 115px;
+
+    @include screen-768 {
+        margin-top: 65px;
+        margin-bottom: 65px;
+    }
+}
+
+.mt-115 {
+    margin-top: 115px;
+
+    @include screen-768 {
+        margin-top: 65px;
+    }
+}
+
+.mb-115 {
+    margin-bottom: 115px;
+
+    @include screen-768 {
+        margin-bottom: 65px;
+    }
+}
+
+.my-110 {
+    margin-top: 110px;
+    margin-bottom: 110px;
+
+    @include screen-768 {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+}
+
+.mt-110 {
+    margin-top: 110px;
+
+    @include screen-768 {
+        margin-top: 60px;
+    }
+}
+
+.mb-110 {
+    margin-bottom: 110px;
+
+    @include screen-768 {
+        margin-bottom: 60px;
+    }
+}
+
+
+
+
