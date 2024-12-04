@@ -1,4 +1,3 @@
-
 /*
 Theme Name: Web GeniusBD HTML Template
 Author: GeniusBD 
@@ -10,22 +9,15 @@ Version: 1.0.0
 
 /****************** base css **********************/
 @import "./base/resets";
+@import "./base/mixin";
 @import "./base/variables";
 @import "./base/typography";
-@import "./base/mixin";
-@import "./base/spacing"; 
-
-
+@import "./base/spacing";
 
 /****************** components *******************/
-
+@import "./components/header";
+@import "./components/footer";
 
 /****************** page styles ******************/
-
-
-
-
-
-
-
-
+@import "./pages/home";
+@import "./pages/about";

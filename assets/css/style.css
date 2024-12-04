@@ -1,3 +1,12 @@
+/*
+Theme Name: Web GeniusBD HTML Template
+Author: GeniusBD 
+Author URI: https://themeforest.net/user/GeniusBD/
+Tags: ecommerce, store, business html5 template
+Description: business HTML5 Template. 
+Version: 1.0.0
+*/
+/****************** base css **********************/
 /* Universal reset */
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
@@ -101,10 +110,265 @@ a:hover, button:hover {
   --text-color: #393939;
   --background-color: #fff;
   --box-shadow: 0px 12px 16px rgba(0, 0, 0, 0.04);
+  --transition-base: 0.3s;
 }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   line-height: 1.2;
+}
+
+/* Heading 1 */
+.h1, h1 {
+  font-size: 50px;
+}
+@media (max-width: 991px) {
+  .h1, h1 {
+    font-size: 35px;
+  }
+}
+
+/* Heading 2 */
+.h2, h2 {
+  font-size: 35px;
+}
+@media (max-width: 991px) {
+  .h2, h2 {
+    font-size: 30px;
+  }
+}
+
+/* Heading 3 */
+.h3, h3 {
+  font-size: 32px;
+}
+@media (max-width: 991px) {
+  .h3, h3 {
+    font-size: 28px;
+  }
+}
+
+.g-30,
+.gx-30 {
+  --bs-gutter-x: 30px;
+}
+@media (max-width: 1199px) {
+  .g-30,
+  .gx-30 {
+    --bs-gutter-x: 24px;
+  }
+}
+
+.g-30,
+.gy-30 {
+  --bs-gutter-y: 30px;
+}
+@media (max-width: 1199px) {
+  .g-30,
+  .gy-30 {
+    --bs-gutter-y: 24px;
+  }
+}
+
+.py-115 {
+  padding-top: 115px;
+  padding-bottom: 115px;
+}
+@media (max-width: 991px) {
+  .py-115 {
+    padding-bottom: 80px;
+    padding-top: 80px;
+  }
+}
+@media (max-width: 767px) {
+  .py-115 {
+    padding-top: 65px;
+    padding-bottom: 65px;
+  }
+}
+
+.pt-115 {
+  padding-top: 115px;
+}
+@media (max-width: 991px) {
+  .pt-115 {
+    padding-top: 80px;
+  }
+}
+@media (max-width: 767px) {
+  .pt-115 {
+    padding-top: 65px;
+  }
+}
+
+.pb-115 {
+  padding-bottom: 115px;
+}
+@media (max-width: 991px) {
+  .pb-115 {
+    padding-bottom: 80px;
+  }
+}
+@media (max-width: 767px) {
+  .pb-115 {
+    padding-bottom: 65px;
+  }
+}
+
+.py-110 {
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+@media (max-width: 991px) {
+  .py-110 {
+    padding-bottom: 80px;
+    padding-top: 80px;
+  }
+}
+@media (max-width: 767px) {
+  .py-110 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+.pt-110 {
+  padding-top: 110px;
+}
+@media (max-width: 991px) {
+  .pt-110 {
+    padding-top: 80px;
+  }
+}
+@media (max-width: 767px) {
+  .pt-110 {
+    padding-top: 60px;
+  }
+}
+
+.pb-110 {
+  padding-bottom: 110px;
+}
+@media (max-width: 991px) {
+  .pb-110 {
+    padding-bottom: 80px;
+  }
+}
+@media (max-width: 767px) {
+  .pb-110 {
+    padding-bottom: 60px;
+  }
+}
+
+.pt-120 {
+  padding-top: 120px;
+}
+@media (max-width: 991px) {
+  .pt-120 {
+    padding-top: 80px;
+  }
+}
+@media (max-width: 767px) {
+  .pt-120 {
+    padding-top: 70px;
+  }
+}
+
+.pb-70 {
+  padding-bottom: 70px;
+}
+
+.py-70 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.py-60 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.pt-60 {
+  padding-top: 60px;
+}
+
+.bp-60 {
+  padding-bottom: 60px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.my-115 {
+  margin-top: 115px;
+  margin-bottom: 115px;
+}
+@media (max-width: 767px) {
+  .my-115 {
+    margin-top: 65px;
+    margin-bottom: 65px;
+  }
+}
+
+.mt-115 {
+  margin-top: 115px;
+}
+@media (max-width: 767px) {
+  .mt-115 {
+    margin-top: 65px;
+  }
+}
+
+.mb-115 {
+  margin-bottom: 115px;
+}
+@media (max-width: 767px) {
+  .mb-115 {
+    margin-bottom: 65px;
+  }
+}
+
+.my-110 {
+  margin-top: 110px;
+  margin-bottom: 110px;
+}
+@media (max-width: 767px) {
+  .my-110 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+}
+
+.mt-110 {
+  margin-top: 110px;
+}
+@media (max-width: 767px) {
+  .mt-110 {
+    margin-top: 60px;
+  }
+}
+
+.mb-110 {
+  margin-bottom: 110px;
+}
+@media (max-width: 767px) {
+  .mb-110 {
+    margin-bottom: 60px;
+  }
+}
+
+/****************** components *******************/
+/****************** page styles ******************/
+h2 {
+  text-align: center;
 }
