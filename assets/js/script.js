@@ -8,6 +8,10 @@ button.addEventListener('click', () => {
 });
 
 
+/**
+ * 
+ * carousel js code 
+ */
 const myCarouselElement = document.querySelector('#carouselExampleIndicators');
  
 const carousel = new bootstrap.Carousel(myCarouselElement, {
@@ -15,6 +19,29 @@ const carousel = new bootstrap.Carousel(myCarouselElement, {
   touch: true,
   ride: 'carousel',
 });
+
+/**
+ * 
+ * slider js code 
+ */
+
+var swiper = new Swiper(".mySwiper", {
+  spaceBetween: 10,
+  slidesPerView: 4,
+  freeMode: true,
+  watchSlidesProgress: true,
+});
+var swiper2 = new Swiper(".mySwiper2", {
+  spaceBetween: 10,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  thumbs: {
+    swiper: swiper,
+  },
+});
+
 
 
 

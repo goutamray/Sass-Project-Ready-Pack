@@ -1,0 +1,44 @@
+.sub-btn {
+  position: relative;
+  display: inline-block;
+  font-size: 17.42px;
+  font-weight: 700;
+  line-height: 20.91px;
+  background: var(--primary-color);
+  color: #fff;
+  border-radius: 15.68px;
+  padding: 16px 45px;
+  @include screen-768 {
+    font-size: 13.83px;
+    line-height: 16.59px;
+    padding: 12px 35px;
+  }
+}
+
+// Button Animation 
+.button-animsm {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  &::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -173%;
+    width: 190%;
+    height: 170%;
+    background-color: green;
+    z-index: -1;
+    border-radius: 50%;
+    -webkit-transition: all 350ms ease;
+    -o-transition: all 350ms ease;
+    transition: all 350ms ease;
+    z-index: -1;
+  }
+  &:hover::before {
+    top: -10px;
+  }
+}
+
+
